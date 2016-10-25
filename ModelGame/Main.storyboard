@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ModelGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="images.jpeg" id="rf7-cR-r96">
+                                <frame key="frameInset" width="1025" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cabinet.png" id="VIT-Tr-Q31">
+                                <frame key="frameInset" minX="393" minY="54" width="611" height="695"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="model.png" id="sns-4d-sAP">
+                                <frame key="frameInset" minX="10.16%" minY="21.35%" width="15.04%" height="71.22%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bot1.png" id="vqL-6C-Q4q" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="531" minY="551" width="36" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bot2.png" id="IUT-nO-cEw" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="553" minY="551" width="33" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="giay21.png" id="q8C-C8-lN4" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="600" minY="591" width="38" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="giay22.png" id="aik-l1-DEG" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="629" minY="591" width="29" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="giaydo1.png" id="YUg-mE-NsP" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="679" minY="601" width="45" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="giaydo2.png" id="eKh-qO-p3p" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="721" minY="601" width="37" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="mu2.png" id="8yI-8u-SN0" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="648" minY="115" width="69" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="quan1.png" id="lGe-wy-vcX" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="766" minY="352" width="85" height="208"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="quan2.png" id="xJw-SD-fsj" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="675" minY="352" width="83" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="vay.png" id="9Ap-J9-OeC" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="585" minY="352" width="80" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ao1.png" id="u9P-RF-ybw" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="582" minY="198" width="86" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ao2.png" id="hCr-up-FMN" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="800" minY="201" width="83" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ao3.png" id="1YP-ZL-Yub" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="729" minY="203" width="74" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ao4.png" id="DH3-1W-oac" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="658" minY="198" width="79" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="kinh1.png" id="RLn-SV-G5i" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="524" minY="319" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="kinh2.png" id="Lm2-kw-V1B" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="524" minY="261" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="kinh3.png" id="38z-0S-GLO" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="524" minY="203" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="mu1.png" id="adJ-UA-GTx" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="516" minY="115" width="121" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="giay31.png" id="4ca-n4-cH1" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="774" minY="614" width="50" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="giay32.png" id="BEm-WR-zWL" customClass="Item" customModule="ModelGame" customModuleProvider="target">
+                                <frame key="frameInset" minX="832" minY="601" width="43" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-456" y="552"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ao1.png" width="245" height="371"/>
+        <image name="ao2.png" width="245" height="262"/>
+        <image name="ao3.png" width="203" height="151"/>
+        <image name="ao4.png" width="292" height="321"/>
+        <image name="bot1.png" width="103" height="313"/>
+        <image name="bot2.png" width="90" height="332"/>
+        <image name="cabinet.png" width="1104" height="1280"/>
+        <image name="giay21.png" width="62" height="111"/>
+        <image name="giay22.png" width="46" height="124"/>
+        <image name="giay31.png" width="50" height="51"/>
+        <image name="giay32.png" width="50" height="86"/>
+        <image name="giaydo1.png" width="48" height="78"/>
+        <image name="giaydo2.png" width="51" height="102"/>
+        <image name="images.jpeg" width="287" height="175"/>
+        <image name="kinh1.png" width="93" height="36"/>
+        <image name="kinh2.png" width="99" height="39"/>
+        <image name="kinh3.png" width="104" height="35"/>
+        <image name="model.png" width="335" height="995"/>
+        <image name="mu1.png" width="228" height="111"/>
+        <image name="mu2.png" width="170" height="101"/>
+        <image name="quan1.png" width="215" height="509"/>
+        <image name="quan2.png" width="215" height="509"/>
+        <image name="vay.png" width="205" height="243"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
